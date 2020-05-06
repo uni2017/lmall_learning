@@ -9,9 +9,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * Created by Xyg on 2020/5/2.
- */
 public class FTPUtil {
 
     private static String ftpIp = PropertiesUtil.getProperty("ftp.server.ip");
@@ -144,3 +141,4 @@ public class FTPUtil {
         this.ftpClient = ftpClient;
     }
 }
+
